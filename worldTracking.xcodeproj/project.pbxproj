@@ -12,26 +12,7 @@
 		BEBB54FE20B6641200F80002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBB54FC20B6641200F80002 /* Main.storyboard */; };
 		BEBB550020B6641200F80002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEBB54FF20B6641200F80002 /* Assets.xcassets */; };
 		BEBB550320B6641200F80002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBB550120B6641200F80002 /* LaunchScreen.storyboard */; };
-		BEBB550E20B6641200F80002 /* worldTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBB550D20B6641200F80002 /* worldTrackingTests.swift */; };
-		BEBB551920B6641200F80002 /* worldTrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBB551820B6641200F80002 /* worldTrackingUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BEBB550A20B6641200F80002 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BEBB54ED20B6641200F80002 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BEBB54F420B6641200F80002;
-			remoteInfo = worldTracking;
-		};
-		BEBB551520B6641200F80002 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BEBB54ED20B6641200F80002 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BEBB54F420B6641200F80002;
-			remoteInfo = worldTracking;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BEBB54F520B6641200F80002 /* worldTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = worldTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,30 +22,10 @@
 		BEBB54FF20B6641200F80002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEBB550220B6641200F80002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEBB550420B6641200F80002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEBB550920B6641200F80002 /* worldTrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = worldTrackingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEBB550D20B6641200F80002 /* worldTrackingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = worldTrackingTests.swift; sourceTree = "<group>"; };
-		BEBB550F20B6641200F80002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEBB551420B6641200F80002 /* worldTrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = worldTrackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEBB551820B6641200F80002 /* worldTrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = worldTrackingUITests.swift; sourceTree = "<group>"; };
-		BEBB551A20B6641200F80002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BEBB54F220B6641200F80002 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BEBB550620B6641200F80002 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BEBB551120B6641200F80002 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,8 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				BEBB54F720B6641200F80002 /* worldTracking */,
-				BEBB550C20B6641200F80002 /* worldTrackingTests */,
-				BEBB551720B6641200F80002 /* worldTrackingUITests */,
 				BEBB54F620B6641200F80002 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				BEBB54F520B6641200F80002 /* worldTracking.app */,
-				BEBB550920B6641200F80002 /* worldTrackingTests.xctest */,
-				BEBB551420B6641200F80002 /* worldTrackingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,24 +62,6 @@
 				BEBB550420B6641200F80002 /* Info.plist */,
 			);
 			path = worldTracking;
-			sourceTree = "<group>";
-		};
-		BEBB550C20B6641200F80002 /* worldTrackingTests */ = {
-			isa = PBXGroup;
-			children = (
-				BEBB550D20B6641200F80002 /* worldTrackingTests.swift */,
-				BEBB550F20B6641200F80002 /* Info.plist */,
-			);
-			path = worldTrackingTests;
-			sourceTree = "<group>";
-		};
-		BEBB551720B6641200F80002 /* worldTrackingUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BEBB551820B6641200F80002 /* worldTrackingUITests.swift */,
-				BEBB551A20B6641200F80002 /* Info.plist */,
-			);
-			path = worldTrackingUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +84,6 @@
 			productReference = BEBB54F520B6641200F80002 /* worldTracking.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BEBB550820B6641200F80002 /* worldTrackingTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BEBB552020B6641200F80002 /* Build configuration list for PBXNativeTarget "worldTrackingTests" */;
-			buildPhases = (
-				BEBB550520B6641200F80002 /* Sources */,
-				BEBB550620B6641200F80002 /* Frameworks */,
-				BEBB550720B6641200F80002 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BEBB550B20B6641200F80002 /* PBXTargetDependency */,
-			);
-			name = worldTrackingTests;
-			productName = worldTrackingTests;
-			productReference = BEBB550920B6641200F80002 /* worldTrackingTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BEBB551320B6641200F80002 /* worldTrackingUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BEBB552320B6641200F80002 /* Build configuration list for PBXNativeTarget "worldTrackingUITests" */;
-			buildPhases = (
-				BEBB551020B6641200F80002 /* Sources */,
-				BEBB551120B6641200F80002 /* Frameworks */,
-				BEBB551220B6641200F80002 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BEBB551620B6641200F80002 /* PBXTargetDependency */,
-			);
-			name = worldTrackingUITests;
-			productName = worldTrackingUITests;
-			productReference = BEBB551420B6641200F80002 /* worldTrackingUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,16 +97,6 @@
 					BEBB54F420B6641200F80002 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-					};
-					BEBB550820B6641200F80002 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = BEBB54F420B6641200F80002;
-					};
-					BEBB551320B6641200F80002 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = BEBB54F420B6641200F80002;
 					};
 				};
 			};
@@ -221,8 +114,6 @@
 			projectRoot = "";
 			targets = (
 				BEBB54F420B6641200F80002 /* worldTracking */,
-				BEBB550820B6641200F80002 /* worldTrackingTests */,
-				BEBB551320B6641200F80002 /* worldTrackingUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,20 +129,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEBB550720B6641200F80002 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BEBB551220B6641200F80002 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -264,36 +141,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEBB550520B6641200F80002 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BEBB550E20B6641200F80002 /* worldTrackingTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BEBB551020B6641200F80002 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BEBB551920B6641200F80002 /* worldTrackingUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BEBB550B20B6641200F80002 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BEBB54F420B6641200F80002 /* worldTracking */;
-			targetProxy = BEBB550A20B6641200F80002 /* PBXContainerItemProxy */;
-		};
-		BEBB551620B6641200F80002 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BEBB54F420B6641200F80002 /* worldTracking */;
-			targetProxy = BEBB551520B6641200F80002 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BEBB54FC20B6641200F80002 /* Main.storyboard */ = {
@@ -452,68 +300,6 @@
 			};
 			name = Release;
 		};
-		BEBB552120B6641200F80002 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = worldTrackingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = willhess.worldTrackingTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/worldTracking.app/worldTracking";
-			};
-			name = Debug;
-		};
-		BEBB552220B6641200F80002 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = worldTrackingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = willhess.worldTrackingTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/worldTracking.app/worldTracking";
-			};
-			name = Release;
-		};
-		BEBB552420B6641200F80002 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = worldTrackingUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = willhess.worldTrackingUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = worldTracking;
-			};
-			name = Debug;
-		};
-		BEBB552520B6641200F80002 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = worldTrackingUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = willhess.worldTrackingUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = worldTracking;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -531,24 +317,6 @@
 			buildConfigurations = (
 				BEBB551E20B6641200F80002 /* Debug */,
 				BEBB551F20B6641200F80002 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BEBB552020B6641200F80002 /* Build configuration list for PBXNativeTarget "worldTrackingTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BEBB552120B6641200F80002 /* Debug */,
-				BEBB552220B6641200F80002 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BEBB552320B6641200F80002 /* Build configuration list for PBXNativeTarget "worldTrackingUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BEBB552420B6641200F80002 /* Debug */,
-				BEBB552520B6641200F80002 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
